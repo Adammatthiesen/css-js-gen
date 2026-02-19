@@ -35,7 +35,7 @@
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "scratchpad:test-styles": "node test-styles.mjs",
+    "scratchpad:test-styles": "node ./scratch-pad/test-styles.mjs",
     "changeset": "changeset"
   },
   "keywords": [
