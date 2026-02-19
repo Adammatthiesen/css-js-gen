@@ -1,5 +1,7 @@
 # CSS-JS-Gen
 
+[![NPM Version](https://img.shields.io/npm/v/css-js-gen)](https://npm.im/css-js-gen)
+
 A TypeScript package that converts CSS object notation to CSS strings, providing a more maintainable alternative to template literals for generating CSS that needs to be inlined or exported as strings.
 
 ## Features
