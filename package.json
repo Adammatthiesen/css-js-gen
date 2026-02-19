@@ -3,6 +3,19 @@
   "version": "1.0.0",
   "description": "Convert CSS object notation to CSS strings",
   "type": "module",
+  "repository": {
+    "url": "https://github.com/Adammatthiesen/css-js-gen.git",
+    "type": "git"
+  },
+  "author": {
+    "email": "adam@matthiesen.xyz",
+    "name": "Adam Matthiesen",
+    "url": "https://matthiesen.dev"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
   "exports": {
     ".": {
       "types": "./dist/index.d.mts",
@@ -27,8 +40,6 @@
     "styles",
     "typescript"
   ],
-  "author": "",
-  "license": "MIT",
   "packageManager": "pnpm@10.17.0",
   "devDependencies": {
     "@vitest/ui": "^4.0.18",
