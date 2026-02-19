@@ -1,6 +1,6 @@
 {
   "name": "css-js-gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert CSS object notation to CSS strings",
   "type": "module",
   "repository": {
@@ -18,8 +18,8 @@
   "license": "MIT",
   "exports": {
     ".": {
-      "types": "./dist/index.d.mts",
-      "import": "./dist/index.mjs"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     }
   },
   "files": [
@@ -32,7 +32,8 @@
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "scratchpad:test-styles": "node test-styles.mjs"
+    "scratchpad:test-styles": "node test-styles.mjs",
+    "changeset": "changeset"
   },
   "keywords": [
     "css",
@@ -42,7 +43,9 @@
   ],
   "packageManager": "pnpm@10.17.0",
   "devDependencies": {
+    "@changesets/cli": "^2.29.8",
     "@vitest/ui": "^4.0.18",
+    "publint": "^0.3.17",
     "tsdown": "^0.20.3",
     "typescript": "^5.9.3",
     "vitest": "^4.0.18"
